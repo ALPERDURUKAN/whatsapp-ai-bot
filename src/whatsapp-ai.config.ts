@@ -27,8 +27,8 @@ const config: Config = {
         Custom: [
             {
                 /** Custom Model */
-                modelName: 'whatsapp-ai-bot', // Name of the custom model
-                prefix: '!bot', // Prefix for the custom model
+                modelName: 'gpt-4-vision-preview', // Name of the custom model
+                prefix: '!ai', // Prefix for the custom model
                 enable: true, // Whether the custom model is enabled or not
                 /**
                     * context: "file-path (.txt, .text, .md)",
@@ -43,7 +43,7 @@ const config: Config = {
         /** if enable, reply to those messages start with prefix  */
         enable: true, // Whether prefix messages are enabled or not
         /** default model to use if message not starts with prefix and enable is false  */
-        defaultModel: 'ChatGPT' // Default model to use if no prefix is present in the message
+        defaultModel: 'gpt-4-vision-preview' // Default model to use if no prefix is present in the message
     }
 };
 
