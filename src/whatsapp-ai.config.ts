@@ -5,7 +5,7 @@ const config: Config = {
     chatGPTModel: "gpt-4-1106-preview", // learn more about GPT models https://platform.openai.com/docs/models
     models: {
         ChatGPT: {
-            prefix: '!chatgpt', // Prefix for the ChatGPT model
+            prefix: '!a', // Prefix for the ChatGPT model
             enable: true // Whether the ChatGPT model is enabled or not
         },
         DALLE: {
