@@ -2,7 +2,7 @@
 import { Config } from './types/Config';
 
 const config: Config = {
-    chatGPTModel: "gpt-3.5-turbo", // learn more about GPT models https://platform.openai.com/docs/models
+    chatGPTModel: "gpt-4-1106-preview", // learn more about GPT models https://platform.openai.com/docs/models
     models: {
         ChatGPT: {
             prefix: '!chatgpt', // Prefix for the ChatGPT model
