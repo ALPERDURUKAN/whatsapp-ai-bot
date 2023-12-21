@@ -43,7 +43,7 @@ const config: Config = {
         /** if enable, reply to those messages start with prefix  */
         enable: true, // Whether prefix messages are enabled or not
         /** default model to use if message not starts with prefix and enable is false  */
-        defaultModel: 'gpt-4-vision-preview' // Default model to use if no prefix is present in the message
+        defaultModel: 'Gemini' // Default model to use if no prefix is present in the message
     }
 };
 
